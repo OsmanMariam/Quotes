@@ -1,27 +1,43 @@
 # Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.9.
+#### By **Mariam Osman**
+## Description
+This is website application that allows a user to add quotes,delete quotes and vote on exsisting quotes online. 
+## Setup/Installation Requirements
+* The website does not need any unique/specific installation requirements. All that is required is the user to already have a github account.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies Used
+* This site was created using angular version 6.11.3 framework and atom text editor.
 
-## Build
+## Known Bugs
+* No known bugs.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Support and contact details
+This is is an open source code therefore ideas and corrections are welcomed by contacting the email sufimariam8@gmail.com .
+### License
+*MIT License
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Copyright (c) [2019] [Mariam Osman]
 
-## Running end-to-end tests
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.*
+Copyright (c) 2019.
