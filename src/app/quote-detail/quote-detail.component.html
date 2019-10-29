@@ -1,0 +1,9 @@
+<p> The author: {{quote.author}}<br>
+    Submitted by: {{quote.submittedBy}}
+</p>
+<p>This quote was created {{quote.createdDate|dateCount}} days ago</p>
+<button (click)="quoteDelete(true)">Delete Quote</button><br><br>
+<button (click)="upVote(true)">Upvote</button>{{quote.upVote}}
+<button (click)="downVote(true)">Downvote</button>{{quote.downVote}}
+
+

@@ -1,0 +1,17 @@
+input[type=text] {
+    border: none;
+    border-bottom: 5px solid #45A29E;
+    width:50%;
+
+  }
+form{
+    font-size: 30px;
+    color: #C5C6C7;
+
+  }
+button{
+    background-color: #1F2833;
+    color:#C5C6C7;
+    border: 2px solid #66FCF1;
+
+}

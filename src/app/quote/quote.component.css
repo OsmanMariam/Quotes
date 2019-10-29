@@ -1,0 +1,51 @@
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 75px;
+    color: #66FCF1;
+  
+}
+li{
+    font-family: 'Raleway', sans-serif;
+    font-size:30px;
+    border-style:ridge;
+    border-radius:15px;
+    border-width: 50%;
+    border-color: #45A29E;
+    padding-bottom: 5px;
+
+}
+h3{
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+    font-size:50px;
+    color: #66FCF1;
+
+}
+app-quote-form{
+    font-family: 'Raleway', sans-serif;
+
+}
+ul{
+    list-style: none;
+    color: #C5C6C7;
+}
+li:before{
+    content:'\0264';
+    color: #66FCF1;
+    
+}
+.jumbotron{
+    background-color: #0B0C10;
+}
+button{
+    background-color: #1F2833;
+    color:#C5C6C7;
+    border: 2px solid #66FCF1;
+
+}
+.highest{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+
+
+}

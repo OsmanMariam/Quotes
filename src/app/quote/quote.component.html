@@ -1,0 +1,36 @@
+<head>
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400i&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+</head>
+<div class="jumbotron">
+<h1>The Good Quotes.</h1>
+<hr>
+
+<ul>
+        <p class="high" appHighlight>Quote with highest votes:{{quotes[0].name}}</p>
+    <div *ngFor='let quote of sortedQuotes;let i= index'>
+            
+        <li>
+            {{quote.name}} was created on {{quote.createdDate|date}}<br>
+            Upvotes:  {{quote.upVote}}<br>
+            Downvotes:  {{quote.downVote}}<br>
+            <button (click)='toggleDetails(i)'>See more</button><br>
+            <div *ngIf='quote.showDescription'>
+                <br>
+                <br>
+
+            <app-quote-detail  [quote]='quote' (isComplete)=deleteQuote($event,i) (isupVote)='voteBest($event,i)' (isdownVote)='voteWorst ($event,i)'>
+            </app-quote-detail>
+            </div>
+            
+            
+        </li>
+
+    </div>
+    
+</ul><br><br>
+<h3>Add a new quote below.</h3>
+<app-quote-form (addQuote)="addNewQuote($event)"> </app-quote-form>
+</div>
